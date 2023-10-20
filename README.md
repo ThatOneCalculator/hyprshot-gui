@@ -13,21 +13,21 @@ Soon
 
 - Manual
 
-```
+```bash
+git clone https://github.com/ThatOneCalculator/hyprshot-gui.git && cd hyprshot-gui 
 sudo cp ./hyprshot-gui /usr/local/bin/
 sudo cp ./hyprshot-gui.desktop /usr/local/share/applications/
 ```
-
 
 ## Usage
 
 Run `hyprshot-gui.desktop` from menu entry, or run `hyprshot-gui` on terminal.
 Select mode, then press OK.
 
-pic here
+![screenshot](https://github.com/ThatOneCalculator/hyprshot-gui/assets/44733677/aea8f7dc-2af9-4109-9e83-52b09d8fd7c3)
 
-## Use floting window on sway
+## Floating window in Hyprland config
 
 ```
-for_window [app_id="zenity"] floating enable
+windowrule=float, zenity
 ```
